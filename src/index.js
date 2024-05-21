@@ -1,6 +1,6 @@
 import './styles.css';
 
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket('wss://websocket-chat-ep8y.onrender.com');
 
 const loginPopup = document.getElementById('login-popup');
 const chatRoom = document.getElementById('chat-room');
