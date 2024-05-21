@@ -1,0 +1,47 @@
+#login-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#chat-room {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#users-list {
+  width: 20%;
+  float: left;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+#messages-container {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#message-input {
+  width: calc(100% - 60px);
+}
+
+#send-btn {
+  width: 50px;
+}
+
+.message-left {
+  text-align: left;
+}
+
+.message-right {
+  text-align: right;
+}
+
